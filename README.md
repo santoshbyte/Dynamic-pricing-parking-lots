@@ -4,21 +4,22 @@ Dynamic pricing model for urban parking lots using real-time data and intelligen
 ## Project Overview
 This project aims to implement a dynamic pricing system for urban parking lots based on real-time data such as occupancy, traffic, vehicle type, and queue length using the Pathway streaming engine.
 
+```
 dynamic-parking-pricing/
 │
 ├── data/
-│   └── cleaned.csv
+│   └── cleaned.csv                     # Preprocessed dataset used in Pathway pipeline
 │
 ├── notebooks/
-│   └── dynamic_pricing_pipeline.ipynb
+│   └── dynamic_pricing_pipeline.ipynb # Main notebook with data loading, pipeline & plots
 │
-├── src/
-│   └── pricing_model.py
+├── outputs/
+│   └── streamed_output.jsonl          # JSONL output from Pathway stream
 │
-├── architecture.md or architecture.png
-├── README.md
-├── requirements.txt
-└── LICENSE (optional)
+├── README.md                          # Project overview and structure (this file)
+└──requirements.txt                   # All required package
+
+```
 
 ## Tech Stack
 -  Python
