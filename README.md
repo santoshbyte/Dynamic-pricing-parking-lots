@@ -1,6 +1,5 @@
-# Dynamic-pricing-parking-lots
-Dynamic pricing model for urban parking lots using real-time data and intelligent feature engineering — built during Summer Analytics 2025.
 #  Dynamic Pricing for Urban Parking Lots
+Dynamic pricing model for urban parking lots using real-time data and intelligent feature engineering — built during Summer Analytics 2025.
 
 ## Project Overview
 This project aims to implement a dynamic pricing system for urban parking lots based on real-time data such as occupancy, traffic, vehicle type, and queue length using the Pathway streaming engine.
